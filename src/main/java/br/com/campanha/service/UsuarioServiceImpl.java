@@ -4,9 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.campanha.business.UsuarioBusiness;
+import br.com.campanha.domain.Result;
 import br.com.campanha.domain.Usuario;
-import br.com.campanha.message.Result;
-import br.com.campanha.message.UsuarioMessage;
+import br.com.campanha.domain.UsuarioMessage;
 
 @Service
 public class UsuarioServiceImpl {

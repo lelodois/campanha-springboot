@@ -8,9 +8,9 @@ import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import br.com.campanha.domain.BaseModel;
+import br.com.campanha.domain.Result;
 import br.com.campanha.domain.Usuario;
-import br.com.campanha.message.Result;
-import br.com.campanha.message.UsuarioMessage;
+import br.com.campanha.domain.UsuarioMessage;
 
 @RunWith(MockitoJUnitRunner.class)
 public class UsuarioServiceTest extends BaseServiceMockTest {

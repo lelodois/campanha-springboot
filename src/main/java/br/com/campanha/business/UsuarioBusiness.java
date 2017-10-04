@@ -6,8 +6,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import br.com.campanha.comum.BaseValidator;
 import br.com.campanha.domain.Usuario;
+import br.com.campanha.domain.UsuarioMessage;
 import br.com.campanha.exception.BasePersistException;
-import br.com.campanha.message.UsuarioMessage;
 import br.com.campanha.repository.UsuarioBaseRepository;
 import br.com.campanha.repository.UsuarioSearchRepository;
 

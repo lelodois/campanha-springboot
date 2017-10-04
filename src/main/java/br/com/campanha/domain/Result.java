@@ -1,4 +1,4 @@
-package br.com.campanha.message;
+package br.com.campanha.domain;
 
 import java.io.Serializable;
 

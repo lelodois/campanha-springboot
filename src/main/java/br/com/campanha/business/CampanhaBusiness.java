@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import br.com.campanha.comum.BaseValidator;
 import br.com.campanha.domain.Campanha;
-import br.com.campanha.message.CampanhaMessage;
+import br.com.campanha.domain.CampanhaMessage;
 import br.com.campanha.repository.CampanhaBaseRepository;
 import br.com.campanha.repository.CampanhaSearchRepository;
 

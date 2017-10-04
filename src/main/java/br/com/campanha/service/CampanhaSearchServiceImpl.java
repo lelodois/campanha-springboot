@@ -10,9 +10,9 @@ import com.google.common.collect.Lists;
 import br.com.campanha.business.CampanhaBusiness;
 import br.com.campanha.business.CampanhaUsuarioBusiness;
 import br.com.campanha.domain.Campanha;
-import br.com.campanha.message.Result;
-import br.com.campanha.message.CampanhaMessage;
-import br.com.campanha.message.UsuarioMessage;
+import br.com.campanha.domain.CampanhaMessage;
+import br.com.campanha.domain.Result;
+import br.com.campanha.domain.UsuarioMessage;
 
 @Service
 public class CampanhaSearchServiceImpl {

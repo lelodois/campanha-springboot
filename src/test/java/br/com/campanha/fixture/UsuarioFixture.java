@@ -3,7 +3,7 @@ package br.com.campanha.fixture;
 import org.joda.time.DateTime;
 
 import br.com.campanha.comum.DateUtils;
-import br.com.campanha.message.UsuarioMessage;
+import br.com.campanha.domain.UsuarioMessage;
 import br.com.six2six.fixturefactory.Fixture;
 import br.com.six2six.fixturefactory.Rule;
 import br.com.six2six.fixturefactory.loader.TemplateLoader;

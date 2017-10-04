@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.campanha.message.Result;
+import br.com.campanha.domain.Result;
 import br.com.campanha.stream.ProcuraVogalStream;
 
 @RestController

@@ -19,7 +19,6 @@ import br.com.campanha.event.UsuarioExchangeTeamEvent;
 import br.com.campanha.event.UsuarioNewEvent;
 import br.com.campanha.event.UsuarioUpdateEvent;
 import br.com.campanha.exception.DateInvalidException;
-import br.com.campanha.message.UsuarioMessage;
 
 @Entity
 @Table(name = "tb_usuario")

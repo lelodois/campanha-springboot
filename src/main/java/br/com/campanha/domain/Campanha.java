@@ -18,7 +18,6 @@ import br.com.campanha.comum.StringUtils;
 import br.com.campanha.event.CampanhaExchangeTeamEvent;
 import br.com.campanha.event.CampanhaNewEvent;
 import br.com.campanha.exception.DateInvalidException;
-import br.com.campanha.message.CampanhaMessage;
 
 @Entity
 @Table(name = "tb_campanha")

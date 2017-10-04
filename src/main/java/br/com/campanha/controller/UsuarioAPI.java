@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.campanha.message.Result;
-import br.com.campanha.message.UsuarioMessage;
+import br.com.campanha.domain.Result;
+import br.com.campanha.domain.UsuarioMessage;
 import br.com.campanha.service.UsuarioServiceImpl;
 
 @RestController

@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.campanha.business.CampanhaBusiness;
-import br.com.campanha.message.Result;
-import br.com.campanha.message.CampanhaMessage;
+import br.com.campanha.domain.CampanhaMessage;
+import br.com.campanha.domain.Result;
 
 @Service
 public class CampanhaServiceImpl {
