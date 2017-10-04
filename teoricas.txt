@@ -1,0 +1,24 @@
+4) O que é Deadlock? Detalhe um pouco sobre o caso e como você poderia resolver isso.
+
+R: Deadlock é um erro de transação em processos que concorrem o mesmo recurso.
+No caso abaixo, há um cenário que ocorreria um deadlock, cenário:
+
+- Transação 1 - Atualizar uma lista de 1000 campanhas;
+- Transação 1 – Iniciou o processo e está em memória, com a transação aberta;
+- Transação 1 – Atualizou 200 campanhas, mas ainda está processando;
+- Transação 2 – Quer atualizar a campanha 900 (da transação 1);
+- Transação 2 – Executou o processo só que ainda está aguardando a 1;
+- Transação 1 – Por algum motivo ainda não terminou e ainda está processando;
+- Transação 2 – O timeout da transação foi ultrapassado e o deadlock ocorre;
+
+****
+
+5) Uma das grandes inclusões no Java 8 foi a API Stream. Com ela podemos fazer diversas operações de loop, filtros, maps, etc. Porém, existe uma variação bem interessante do Stream que é ParallelStreams. Descreva com suas palavras quando qual é a diferença entre os dois e quando devemos utilizar cada um deles.
+
+R: A principal diferença é que na ordem de leitura do Stream, o Parallel não respeita
+uma ordem sequencial, pois a lista é particionada e cada sublista é processada em
+paralelo.
+Devemos usar o Stream quando é necessário obedecer a sequência lógica do stream, ex.
+Exercício 3.
+Devemos usar o parallel quando precisamos ler todo stream e necessitamos de mais
+performance.
